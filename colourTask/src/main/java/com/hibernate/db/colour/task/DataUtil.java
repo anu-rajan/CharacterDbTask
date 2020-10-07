@@ -56,7 +56,6 @@ public class DataUtil {
 		    	JSONArray parentArray = new JSONArray();
 		    	populateChildren(parentArray, parent, childMap, completed);
 		    	JSONObject resultObject = parentArray.getJSONObject(0);
-		    	System.out.println("kk "+resultObject);
 		    	resultArray.put(resultObject);
 		    	
 		    }
